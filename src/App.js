@@ -4,11 +4,6 @@ var uuid = require('uuid');
 var firebase = require('firebase');
 
 var config = {
-    apiKey: "AIzaSyD-Nmciy6eSch8K2qfJVMsAnZ6phn_n1dk",
-    authDomain: "simplesurvey-c0691.firebaseapp.com",
-    databaseURL: "https://simplesurvey-c0691.firebaseio.com",
-    storageBucket: "simplesurvey-c0691.appspot.com",
-    messagingSenderId: "736445536530"
   };
   firebase.initializeApp(config);
 
